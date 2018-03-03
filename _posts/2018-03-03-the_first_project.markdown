@@ -41,5 +41,7 @@ It took me way longer that expect to build this, but a lot of lessons learned am
 * When you're stuck, take a break, come back with fresh eyes
 * When you have to put something on the side, you can still salvage big components of it
 * Coding is about problem solving and learning - that matches my day job skills. Cool!
+
+
 And most importantly, coding is SO MUCH FUN!
 
