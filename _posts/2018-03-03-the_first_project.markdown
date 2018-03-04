@@ -5,7 +5,7 @@ date:       2018-03-03 11:54:00 -0500
 permalink:  the_first_project
 ---
 
-Time to work on my first project. We have a goal: scraping, but besides that. We can do what we want..
+Time to work on my first project. We have a goal: scraping, but besides that, we can do what we want..
 That's exiting.
 
 Ok. I want to make something interesting. Useful.
@@ -17,11 +17,13 @@ A quick check on rubygems.org tells me that 10 versions of that exists already.
 It's fine. I'll pick another search engine. I'm French. Let's promote the French tech. I'll scrap qwant.com. Who doesn't want their privacy preserved in while using CLI after all ;).
 
 I'll skip on the frustrating learning curve on the require, require all, absolute path, cd. cd.., losing my code because of error of manipulation (do not forget to commit every 2 lines of code - lesson learned.
-I start by building an MVP of my app with dummy results. Easy, done in less than one hour. I start with everything in a CLI object. I create the user interaction flow.
-Ok, now is time to extract all the results in a scrapper object. Still with dummy results. The scrapper object is ready. Now, the *plat de resistance*. Let's scrap.
-The website seems easy to scrap. all the results of the search engine have the same class. Well ordered. A  .collect should work perfectly.
+
+I start by building an MVP of my app with dummy results. I start with including everything in a CLI object and create the user interaction flow.Ok, now is time to extract all the results in a scrapper object. Still with dummy results. The scrapper object is ready. Easy, done in less than one hour.
+
+Now, the *plat de resistance*. Let's scrap.
+The website seems easy to scrap. all the results of the search engine have the same css classes and are well ordered. A  .collect should work perfectly.
 Let's try to scrap the title of an article first. 
-Hmmmm.. interesting, not working. Let's see what I missed... All seems correct to me. Really weird.
+Hmmmm.. interesting, not working. Let's see what I missed... All seems correct to me though. Really weird.
 It's ok. An office hour for this project is starting, maybe I missed something. I'll just attend and ask. 
 Well, the answer is not very encouraging. The website I need to scrap is built in ajax. I need to virtually load the website before collecting the HTML with Nokogiri. I'll try to see how to do that with Selenium-webdriver, watir-webdriver etc. I can't figure out how to do that.
 It's ok. I'll schedule a 30 min 1:1 session. No spots available before a couple of days. I won't lose my time. I'll build another scraper in case I can't figure out this one
