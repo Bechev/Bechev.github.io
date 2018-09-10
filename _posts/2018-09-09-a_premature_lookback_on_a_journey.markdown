@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "A premature lookback on a journey"
-date:       2018-09-10 00:15:24 +0000
+date:       2018-09-09 20:15:25 -0400
 permalink:  a_premature_lookback_on_a_journey
 ---
 
